@@ -1,0 +1,12 @@
+2016-05-27 09:28:22 [main] INFO  DataSourceConfig:28 - init datasource.....
+2016-05-27 09:28:22 [main] INFO  DaoConfig:32 - Init SessionFactory...
+2016-05-27 09:28:23 [main] INFO  Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+2016-05-27 09:28:23 [main] INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-05-27 09:28:23 [main] INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-05-27 09:28:23 [main] INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-05-27 09:28:23 [main] INFO  DruidDataSource:106 - {dataSource-1} inited
+2016-05-27 09:28:23 [main] INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-27 09:28:23 [main] INFO  Version:26 - HSEARCH000034: Hibernate Search 5.5.2.Final
+2016-05-27 09:28:23 [main] WARN  ConfigContext:346 - HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2016-05-27 09:28:24 [main] INFO  AppConfig:58 - Init RequestMappingHandlerAdapter(HttpMessageConverter + Jackson2HttpMessageConverter)
+2016-05-27 09:28:24 [main] INFO  DruidDataSource:106 - {dataSource-1} closed
