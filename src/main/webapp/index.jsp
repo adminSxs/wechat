@@ -158,7 +158,7 @@
 		    </div>
 		  </nav>
 
-
+<a href="${pageContext.request.contextPath}/web/nationalpolicy/getAll">你爷爷</a>
 
 
 <div ui-view="content"></div>
