@@ -2,6 +2,7 @@ package com.cdtu.wechat.dao.impl;
 
 import java.util.List;
 
+import org.hibernate.Query;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -10,6 +11,7 @@ import com.cdtu.wechat.commons.base.BaseDao;
 import com.cdtu.wechat.commons.utils.page.Page;
 import com.cdtu.wechat.dao.IMenuDao;
 import com.cdtu.wechat.domain.Menu;
+import com.cdtu.wechat.domain.position.Position;
 
 
 
@@ -46,7 +48,8 @@ public class MenuDao extends BaseDao implements IMenuDao {
 	 
 	@Override
 	public List<Object> getAllByPid(long pid) {
-		// TODO Auto-generated method stub
+		String sql = "select * from menu where pid = ?";
+		  Query query = getSQLQuery(sql).addEntity(Menu.class) ;
 		return null;
 	}
 
